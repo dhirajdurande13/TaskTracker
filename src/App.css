@@ -1,0 +1,61 @@
+.Todo {
+  width: 500px;
+  border: 7px solid #3c4259;
+  border-radius: 10%;
+  margin: 20px auto 0; /* Adjust margin-top as needed */
+  background-color: #f2f3f7;
+  box-shadow: 10px 10px 5px #696365;
+  display: flex;
+  position: relative;
+  height: auto;
+}
+@media only screen and (max-width: 450px) {
+  .Todo{
+    width: 250px;
+    border-radius: 2%;
+    padding-left: 3rem;
+  }
+}
+.TodoContainer{
+  margin: auto;
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 450px) {
+  .TodoContainer{
+    margin: auto;
+  }}
+.TodoContainer h1{
+  font-style: italic;
+  color: #3c4259;
+}
+/* @media only screen and (max-width: 450px) {
+  .TodoContainer h1{
+    margin-left: 25%;
+
+  }} */
+.TodoContainer h2{
+  font-style: italic;
+  color: #3c4259;
+}
+/* @media only screen and (max-width: 450px) {
+  .TodoContainer h2{
+    margin-left: 25%;
+
+  }} */
+.TodoContainer ul li span{
+  font-style: italic;
+  color: #3c4259;
+  font-size: large;
+}
+/* @media only screen and (max-width: 450px) {
+  .TodoContainer #btnOuter {
+    margin-left: 20%;
+  }
+  .TodoContainer TextField {
+    margin-left: auto;
+  }
+  } */
+.TodoContainer ul li{
+ 
+  font-size: large;
+}
